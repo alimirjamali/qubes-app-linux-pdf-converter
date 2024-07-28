@@ -145,6 +145,7 @@ class Representation:
             "pdftocairo",
             str(self.path),
             "-png",
+            "-r", "300",
             "-f",
             str(self.page),
             "-l",
